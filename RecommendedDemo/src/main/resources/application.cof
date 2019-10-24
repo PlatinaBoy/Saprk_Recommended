@@ -1,0 +1,14 @@
+#配置文件参数
+#配置原始数据路径
+LogPath=""
+#配置数据清洗文件路径
+ParquetPath=""
+#配置parquet文件序列化
+spark.serializer="org.apache.spark.serializer.KryoSerializer"
+#配置报表写出路径
+reportforms=""
+#配置java jdbc
+db.default.driver = "com.mysql.jdbc.Driver"
+db.default.url = "jdbc:mysql://192.168.3.133:3306/?useUnicode=true&characterEncoding=UTF8"
+db.default.user = "root"
+db.default.password = "123"
